@@ -1,0 +1,77 @@
+.footerContainer {
+  border-top: 1px solid #ccc;
+
+  padding: 100px;
+}
+.QuickLinks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.logo {
+  width: 70px;
+}
+
+h3 {
+  color: #40196d;
+  font-weight: bold;
+  padding: 5px 0px;
+}
+li {
+  list-style: none;
+  padding: 15px 0px;
+  font-size: 14.5px;
+  letter-spacing: 1px;
+}
+/* apps */
+.apps {
+  display: flex;
+  margin-top: 30px;
+}
+.apps img {
+  width: 150px;
+  margin-right: 20px;
+  height: 150px;
+}
+.oneLiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  padding: 25px 0px;
+}
+
+/* contactContainer */
+.contactContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 45px;
+}
+.contactContainer p {
+  padding: 15px 0px;
+  line-height: 25px;
+  font-size: 14.5px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.contactContainer a {
+  font-size: 17px;
+  font-weight: bold;
+  padding: 15px 0px;
+}
+.socials {
+  display: flex;
+  padding: 20px 0px;
+}
+.socialIcon {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.footerBottom p {
+  padding: 10px 0px;
+  font-size: 14.5px;
+  letter-spacing: 0.5px;
+  line-height: 25px;
+  font-weight: 500;
+}

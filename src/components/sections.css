@@ -1,0 +1,193 @@
+.mainSections {
+  width: 70%;
+  margin: 0px auto;
+}
+.moneyApp,
+.save,
+.spend,
+.send,
+.invest,
+.help,
+.money {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 0px;
+}
+.moneyAppContent h1,
+.money h1 {
+  color: #40196d;
+  font-size: 65px;
+  font-weight: bolder;
+}
+.moneyAppContent p,
+.money p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.moneyAppContent span,
+.money span {
+  padding: 15px 35px;
+  background: #40196d;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+.moneyAppContent span:hover,
+.money span:hover {
+  background: #9064c2;
+}
+.kudaMoney {
+  width: 500px;
+}
+.saveContent,
+.spendContentSection,
+.sendContent,
+.investContent,
+.helpContent {
+  width: 36%;
+}
+.saveContent h1,
+.spend h1,
+.sendContent h1,
+.investContent h1,
+.help h1 {
+  color: #40196d;
+  font-size: 45px;
+  font-weight: bolder;
+}
+.saveContent p,
+.spend p,
+.sendContent p,
+.investContent p,
+.help p {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 200;
+  letter-spacing: 0.5px;
+}
+
+/* save image */
+.saveImage {
+  height: 500px;
+  width: 500px;
+  background-color: #dfe3ff;
+  border-radius: 50%;
+  display: flex;
+  position: relative;
+}
+.imageLeft {
+  width: 400px;
+  height: 450px;
+}
+.imageRight {
+  width: 350px;
+  height: 270px;
+  position: absolute;
+  right: -25px;
+  top: -45px;
+}
+/* Spend Section Images */
+.spendImageSection {
+  height: 385px;
+  width: 400px;
+  background-color: #dbf8ff;
+  border-radius: 50%;
+  display: flex;
+  position: relative;
+}
+
+.spendLeft {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  bottom: 0;
+  z-index: 99;
+}
+
+.spendRight {
+  width: 250px;
+  position: absolute;
+  right: 0;
+}
+/* Send Section */
+.sendImage {
+  background-color: #fff5db;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  display: flex;
+  position: relative;
+}
+.sendLeft {
+  width: 250px;
+  height: 320px;
+  position: absolute;
+  bottom: 5px;
+}
+.sendRight {
+  width: 270px;
+  height: 250px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* Invest */
+.investImage {
+  background-color: #d6f8e6;
+  width: 370px;
+  height: 370px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.investImg {
+  width: 350px;
+  height: 370px;
+  position: absolute;
+  top: -45px;
+  left: 10px;
+}
+
+.icons {
+  position: absolute;
+  display: inline-flex;
+  bottom: -60px;
+  left: -5px;
+}
+.icon {
+  width: 70px;
+}
+
+/* Help image */
+.helpImg {
+  width: 550px;
+  height: 500px;
+}
+
+.helpContent a {
+  font-size: 20px;
+  line-height: 25px;
+  padding-top: 10px;
+}
+/* money image */
+.money {
+  background-color: #eff1ff;
+  padding: 50px;
+  border-radius: 25px;
+  position: relative;
+  overflow-y: hidden;
+  height: 350px;
+  margin-bottom: 150px;
+}
+.moneyImage {
+  position: absolute;
+  right: 0;
+  bottom: -120px;
+}
+.moneyImg {
+  width: 500px;
+  height: 400px;
+}
