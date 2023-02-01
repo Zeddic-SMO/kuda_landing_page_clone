@@ -86,12 +86,12 @@ function Footer() {
           <h3>Contact</h3>
           <a href="/">help@kuda.com</a>
           <div className="socials">
-            <img src={a} className="socialIcon" />
-            <img src={b} className="socialIcon" />
-            <img src={c} className="socialIcon" />
-            <img src={d} className="socialIcon" />
-            <img src={e} className="socialIcon" />
-            <img src={f} className="socialIcon" />
+            <img src={a} alt="icon" className="socialIcon" />
+            <img src={b} alt="icon" className="socialIcon" />
+            <img src={c} alt="icon" className="socialIcon" />
+            <img src={d} alt="icon" className="socialIcon" />
+            <img src={e} alt="icon" className="socialIcon" />
+            <img src={f} alt="icon" className="socialIcon" />
           </div>
         </div>
         <div className="lagos">

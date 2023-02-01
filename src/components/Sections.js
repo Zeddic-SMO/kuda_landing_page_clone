@@ -49,18 +49,15 @@ function Sections() {
             </p>
           </div>
           <div className="saveImage">
-            <img src={imageLeft} alt="Left-Image" className="imageLeft" />
-            <img src={imageRight} alt="Left-Image" className="imageRight" />
+            <img src={imageLeft} alt="Left" className="imageLeft" />
+
+            <img src={imageRight} alt="Right" className="imageRight" />
           </div>
         </div>
         <div className="spend">
           <div className="spendImageSection">
-            <img src={spendLeft} alt="spend Left Image" className="spendLeft" />
-            <img
-              src={spendRight}
-              alt="spend Right Image"
-              className="spendRight"
-            />
+            <img src={spendLeft} alt="Left" className="spendLeft" />
+            <img src={spendRight} alt="spend" className="spendRight" />
           </div>
           <div className="spendContentSection">
             <h1>Spend</h1>
@@ -123,7 +120,7 @@ function Sections() {
               reach out, there’ll always be a friendly person there to make your
               life easy.
             </p>
-            <a href="/">Contact Us ></a>
+            <a href="/">Contact Us &gt; </a>
           </div>
           <div className="helpImage">
             <img src={help} alt="Help icon" className="helpImg" />
