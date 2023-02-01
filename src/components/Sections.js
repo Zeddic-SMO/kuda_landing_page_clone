@@ -92,13 +92,17 @@ function Sections() {
         </div>
         <div className="invest">
           <div className="investImage">
-            <img src={investImage} alt="Investment icon" class="investImg" />
+            <img
+              src={investImage}
+              alt="Investment icon"
+              className="investImg"
+            />
             <div className="icons">
-              <img src={icon1} alt="" className="icon" />
-              <img src={icon2} alt="" className="icon" />
-              <img src={icon3} alt="" className="icon" />
-              <img src={icon4} alt="" className="icon" />
-              <img src={icon5} alt="" className="icon" />
+              <img src={icon1} alt="icons" className="icon" />
+              <img src={icon2} alt="icons" className="icon" />
+              <img src={icon3} alt="icons" className="icon" />
+              <img src={icon4} alt="icons" className="icon" />
+              <img src={icon5} alt="icons" className="icon" />
             </div>
           </div>
           <div className="investContent">
