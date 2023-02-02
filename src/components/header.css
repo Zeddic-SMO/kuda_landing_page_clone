@@ -19,7 +19,6 @@
 .navBar {
   width: 60%;
   display: flex;
-  justify-content: start;
   font-weight: 600;
 }
 .navList {

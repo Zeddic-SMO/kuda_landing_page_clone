@@ -1,6 +1,6 @@
 import React from "react"
 import "./sections.css"
-import kudaMoney from "../svg/kudaMoney.svg"
+import kuda from "../svg/money.svg"
 import imageLeft from "../svg/imageLeft.png"
 import imageRight from "../svg/imageTopRight.png"
 import spendLeft from "../svg/spendLeft.png"
@@ -16,7 +16,6 @@ import icon3 from "../svg/icon3.png"
 import icon4 from "../svg/icon4.png"
 import icon5 from "../svg/icon5.png"
 import help from "../svg/help.svg"
-import money from "../svg/money.svg"
 
 function Sections() {
   return (
@@ -34,7 +33,7 @@ function Sections() {
             <span>Join Kuda</span>
           </div>
           <div className="moneyAppImg">
-            <img src={kudaMoney} alt="kudaMoney" className="kudaMoney" />
+            <img src={kuda} alt="kudaMoney" className="kudaMoney" />
           </div>
         </div>
         <div className="save">
@@ -140,7 +139,7 @@ function Sections() {
             <span>Join Kuda</span>
           </div>
           <div className="moneyImage">
-            <img src={money} alt="" className="moneyImg" />
+            <img src={kuda} alt="" className="moneyImg" />
           </div>
         </div>
       </div>
