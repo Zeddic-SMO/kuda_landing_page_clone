@@ -1,7 +1,8 @@
 .mainSections {
-  width: 80%;
+  width: 70%;
   margin: 0px auto;
 }
+
 .moneyApp,
 .save,
 .spend,
@@ -14,33 +15,36 @@
   align-items: center;
   padding: 100px 0px;
 }
+
 .moneyAppContent h1,
 .money h1 {
   color: #40196d;
-  font-size: 65px;
-  font-weight: bolder;
+  font-size: 45px;
+  font-weight: bold;
 }
 .moneyAppContent p,
 .money p {
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 17px;
+  font-weight: 500;
   margin-bottom: 30px;
 }
+
 .moneyAppContent span,
 .money span {
-  padding: 15px 35px;
+  padding: 10px 25px;
   background: #40196d;
   border-radius: 8px;
   color: white;
   cursor: pointer;
+  font-size: 12px;
 }
 .moneyAppContent span:hover,
 .money span:hover {
   background: #9064c2;
 }
 .kudaMoney {
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
 }
 .saveContent,
 .spendContentSection,
@@ -55,44 +59,46 @@
 .investContent h1,
 .help h1 {
   color: #40196d;
-  font-size: 45px;
-  font-weight: bolder;
+  font-size: 30px;
+  font-weight: bold;
 }
 .saveContent p,
 .spend p,
 .sendContent p,
 .investContent p,
 .help p {
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 13px;
+  line-height: 20px;
   font-weight: 200;
   letter-spacing: 0.5px;
 }
 
 /* save image */
 .saveImage {
-  height: 500px;
-  width: 500px;
+  height: 400px;
+  width: 400px;
   background-color: #dfe3ff;
   border-radius: 50%;
   display: flex;
   position: relative;
 }
 .imageLeft {
-  width: 400px;
-  height: 450px;
+  width: 300px;
+  height: 350px;
+  position: absolute;
+  bottom: 0;
 }
 .imageRight {
-  width: 350px;
-  height: 270px;
+  width: 250px;
+  height: 200px;
   position: absolute;
   right: -25px;
   top: -45px;
 }
 /* Spend Section Images */
 .spendImageSection {
-  height: 385px;
-  width: 400px;
+  height: 285px;
+  width: 300px;
   background-color: #dbf8ff;
   border-radius: 50%;
   display: flex;
@@ -100,15 +106,15 @@
 }
 
 .spendLeft {
-  width: 250px;
-  height: 250px;
+  width: 180px;
+  height: 180px;
   position: absolute;
   bottom: 0;
   z-index: 99;
 }
 
 .spendRight {
-  width: 250px;
+  width: 180px;
   position: absolute;
   right: 0;
 }
@@ -138,25 +144,25 @@
 /* Invest */
 .investImage {
   background-color: #d6f8e6;
-  width: 370px;
-  height: 370px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   position: relative;
 }
 
 .investImg {
-  width: 350px;
-  height: 370px;
+  width: 200px;
+  height: 300px;
   position: absolute;
-  top: -45px;
-  left: 10px;
+  top: -50px;
+  left: 25px;
 }
 
 .icons {
   position: absolute;
   display: inline-flex;
-  bottom: -60px;
-  left: -5px;
+  bottom: -65px;
+  left: -35px;
 }
 .icon {
   width: 70px;
@@ -164,14 +170,15 @@
 
 /* Help image */
 .helpImg {
-  width: 550px;
-  height: 500px;
+  width: 450px;
+  height: 400px;
 }
 
 .helpContent a {
-  font-size: 20px;
-  line-height: 25px;
+  font-size: 15px;
+  line-height: 22px;
   padding-top: 10px;
+  font-weight: bold;
 }
 /* money image */
 .money {
@@ -191,4 +198,79 @@
 .moneyImg {
   width: 500px;
   height: 400px;
+}
+
+@media (max-width: 768px) {
+  .mainSections {
+    width: 80%;
+  }
+
+  .moneyApp,
+  .save,
+  .send,
+  .help,
+  .money {
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 0px;
+  }
+  .invest,
+  .spend {
+    flex-direction: column-reverse;
+  }
+  .kudaMoney {
+    width: 100%;
+    padding: 40px 0px;
+  }
+
+  .saveContent,
+  .spendContentSection,
+  .sendContent,
+  .investContent,
+  .helpContent {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .saveImage {
+    width: 300px;
+    height: 300px;
+  }
+  .imageLeft {
+    width: 250px;
+    height: 250px;
+  }
+  .imageRight {
+    width: 200px;
+    height: 150px;
+  }
+
+  .sendImage {
+    height: 300px;
+    width: 300px;
+  }
+
+  .sendLeft {
+    width: 200px;
+    height: 270px;
+  }
+
+  .sendRight {
+    width: 220px;
+    height: 190px;
+  }
+
+  .helpImg {
+    width: 300px;
+    height: 300px;
+  }
+  .money {
+    height: 500px;
+    padding: 20px;
+    justify-content: flex-start;
+  }
+  .moneyImg {
+    width: 300px;
+    height: 300px;
+  }
 }
